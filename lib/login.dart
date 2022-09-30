@@ -14,7 +14,7 @@ class Login extends StatefulWidget {
 
 class _LoginPageState extends State<Login> {
   TextEditingController serverController =
-      TextEditingController(text: '109.123.123.197');
+      TextEditingController(text: '192.168.0.106');
   TextEditingController portController = TextEditingController(text: '8888');
   Conductor? conductor;
   void _connectOrDisconnect() async {
